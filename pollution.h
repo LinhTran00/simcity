@@ -1,9 +1,6 @@
-#include <iostream>
 #include <string>
+#include <iostream>
 #include <vector>
+using namespace std;
 
-class Pollution {
-    public:
-        void spreadpollution();
-    
-};
+void spreadpollution((vector<vector<Cell>>& city, int row, int col, int pollution);
