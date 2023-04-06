@@ -8,6 +8,15 @@
 
 using namespace std;
 
+struct Cell
+{
+    char type;
+    int popullation;
+    int pollution;
+    int x;
+    int y;
+};
+
 struct SimConfig { //struct for the configuration file
     string region_layout_filename;
     int time_limit;

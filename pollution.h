@@ -3,4 +3,12 @@
 #include <vector>
 using namespace std;
 
-void spreadpollution((vector<vector<Cell>>& city, int row, int col, int pollution);
+struct Cell 
+{
+    char type;
+    int population;
+    int pollution;
+};
+
+void getpollution(vector<vector<Cell>>& regions);
+void spreadpollution(vector<vector<Cell>>& cell, int row, int col, int pollution);
