@@ -58,3 +58,5 @@ int totalpollution(vector<vector<Cell>>& regions)
     }
     return totalpollution;
 };
+
+//dispay pollution layout
